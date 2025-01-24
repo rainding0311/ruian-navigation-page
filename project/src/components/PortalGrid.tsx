@@ -1,4 +1,5 @@
 //import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { PortalCard } from './PortalCard';
 import { ConfigModal } from './ConfigModal';
 import { Portal } from '../types/portal';
@@ -21,7 +22,7 @@ export function PortalGrid() {
   };
 
   const handleDeletePortal = (id: string) => {
-    setPortals(portals.filter(portal => portal.id !== id));
+    setPortals(portals.filter((portal: Portal) => portal.id !== id));
   };
 
   return (
@@ -39,7 +40,7 @@ export function PortalGrid() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {portals.map((portal) => (
+      {portals.map((portal: Portal) => (
           <PortalCard 
             key={portal.id} 
             portal={portal} 

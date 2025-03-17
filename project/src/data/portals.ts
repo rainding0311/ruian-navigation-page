@@ -6,7 +6,7 @@ export const portals: Portal[] = [
     title: 'Ruian's Blog',
     url: 'https://www.ruianding.com/blog',
     description: 'Ruian's Blog',
-    icon: '📖',
+    icon: '🌐',
     category: 'Blog'
   },
   {

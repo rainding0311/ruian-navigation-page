@@ -28,7 +28,7 @@ export function PortalGrid() {
   return (
     <div>
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-blue-400">Your Portals</h2>
+        <h2 className="text-2xl font-bold text-blue-400">Launchpad</h2>
         <button
           onClick={() => setIsConfigOpen(true)}
           className="flex items-center space-x-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 

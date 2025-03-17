@@ -2,12 +2,28 @@ import { Portal } from '../types/portal';
 
 export const portals: Portal[] = [
   {
+    id: 'homepage',
+    title: 'Ruian Homepage',
+    url: 'https://www.ruianding.com',
+    description: 'Ruian Homepage',
+    icon: '🏠',
+    category: 'Website',
+  },
+  {
     id: 'blog',
     title: 'Ruian Blog',
     url: 'https://www.ruianding.com/blog',
     description: 'Ruian Blog',
-    icon: '📖',
-    category: 'Blog',
+    icon: '✍🏻',
+    category: 'Website',
+  },
+  {
+    id: 'paint',
+    title: 'MiniPaint',
+    url: 'https://www.ruianding.com/apps/miniPaint/index.html',
+    description: 'Mini Photoshop',
+    icon: '🎨',
+    category: 'Tools',
   },
   {
     id: 'grafana',
@@ -24,5 +40,37 @@ export const portals: Portal[] = [
     description: 'Website analytics',
     icon: '📈',
     category: 'Analytics',
+  },
+  {
+    id: 'frp',
+    title: 'FRP',
+    url: 'http://frp.ruianding.com/',
+    description: 'Reverse proxy monitroring',
+    icon: '🌐',
+    category: 'Monitoring',
+  },
+  {
+    id: 'gpt',
+    title: 'ChatGPT',
+    url: 'https://gpt.ruianding.com/',
+    description: 'ChatGPT WebUI',
+    icon: '💬',
+    category: 'Tools',
+  },
+  {
+    id: 'dify',
+    title: 'Dify',
+    url: 'https://www.ruianding.com/dify',
+    description: 'LLM app development platform',
+    icon: '🧶',
+    category: 'Tools',
+  },
+  {
+    id: 'json',
+    title: 'Json Formatter',
+    url: 'https://json.ruianding.com/',
+    description: 'JSON visualization and processing tool',
+    icon: '📂',
+    category: 'Tools',
   }
 ];

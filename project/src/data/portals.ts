@@ -3,11 +3,11 @@ import { Portal } from '../types/portal';
 export const portals: Portal[] = [
   {
     id: 'blog',
-    title: 'Ruian's Blog',
+    title: 'Ruian Blog',
     url: 'https://www.ruianding.com/blog',
-    description: 'Ruian's Blog',
+    description: 'Ruian Blog',
     icon: '📖',
-    category: 'Blog'
+    category: 'Blog',
   },
   {
     id: 'grafana',
@@ -15,7 +15,7 @@ export const portals: Portal[] = [
     url: 'https://www.ruianding.com/grafana',
     description: 'Metrics visualization',
     icon: '📊',
-    category: 'Monitoring'
+    category: 'Monitoring',
   },
   {
     id: 'matomo',
@@ -23,6 +23,6 @@ export const portals: Portal[] = [
     url: 'https://www.ruianding.com/matomo',
     description: 'Website analytics',
     icon: '📈',
-    category: 'Analytics'
+    category: 'Analytics',
   }
 ];

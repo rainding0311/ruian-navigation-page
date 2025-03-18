@@ -18,12 +18,12 @@ export const portals: Portal[] = [
     category: 'Website',
   },
   {
-    id: 'paint',
-    title: 'MiniPaint',
-    url: 'https://www.ruianding.com/apps/miniPaint/index.html',
-    description: 'Mini Photoshop',
-    icon: '🎨',
-    category: 'Tools',
+    id: 'file',
+    title: 'File Sharing',
+    url: 'https://www.ruianding.com/files',
+    description: 'File sharing',
+    icon: '📂',
+    category: 'Website',
   },
   {
     id: 'grafana',
@@ -50,6 +50,14 @@ export const portals: Portal[] = [
     category: 'Monitoring',
   },
   {
+    id: 'paint',
+    title: 'MiniPaint',
+    url: 'https://www.ruianding.com/apps/miniPaint/index.html',
+    description: 'Mini PhotoShop',
+    icon: '🎨',
+    category: 'Tools',
+  },
+  {
     id: 'gpt',
     title: 'ChatGPT',
     url: 'https://gpt.ruianding.com/',
@@ -70,7 +78,7 @@ export const portals: Portal[] = [
     title: 'Json Formatter',
     url: 'https://json.ruianding.com/',
     description: 'JSON visualization and processing tool',
-    icon: '📂',
+    icon: '🔄',
     category: 'Tools',
   },
   {

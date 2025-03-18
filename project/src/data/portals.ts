@@ -72,5 +72,13 @@ export const portals: Portal[] = [
     description: 'JSON visualization and processing tool',
     icon: '📂',
     category: 'Tools',
+  },
+  {
+    id: 'tetris',
+    title: 'Tetris',
+    url: 'https://www.ruianding.com/apps/tetris_ultimate/tetris.html',
+    description: 'Tetris game',
+    icon: '🕹️',
+    category: 'Entertainment',
   }
 ];

@@ -88,5 +88,13 @@ export const portals: Portal[] = [
     description: 'Tetris game',
     icon: '🕹️',
     category: 'Entertainment',
+  },
+  {
+    id: 'tier',
+    title: 'Tier Maker',
+    url: 'https://www.ruianding.com/tiermaker.html',
+    description: 'Tier Maker',
+    icon: '🏆',
+    category: 'Tools',
   }
 ];
